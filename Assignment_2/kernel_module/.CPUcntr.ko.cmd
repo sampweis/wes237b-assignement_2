@@ -1,0 +1,1 @@
+cmd_/home/xilinx/jupyter_notebooks/kernel_module/CPUcntr.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/xilinx/jupyter_notebooks/kernel_module/CPUcntr.ko /home/xilinx/jupyter_notebooks/kernel_module/CPUcntr.o /home/xilinx/jupyter_notebooks/kernel_module/CPUcntr.mod.o;  true
